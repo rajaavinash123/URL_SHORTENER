@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+historypage
+{% endblock %}
+
+{% block page %}
+<h1>DATA</h1>
+
+<ul>
+{% for i in allurls %}
+<li>{{i}}</li>
+{% endfor%}
+</ul>
+
+{% endblock %}
